@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <joueur.h>
 #include <fonction.h>
 
 /*-----------------------------------------------------------------------------------*/
@@ -32,10 +33,13 @@ joueur* trier_table(joueur* TAB , int nombreJoueur)
 void fjouer(joueur jr)
 {
     srand(time(NULL));
-    int i=0,x,trouver=0, abandon=0;
+    int i=1,x,trouver=0, abandon=0;
     x = fRandom(jr.dif);
 
-    while()
+    while(!trouver&&!abandon)
+    {
+        printf("");
+    }
 }
 
 /*-----------------------------------------------------------------------------------*/
