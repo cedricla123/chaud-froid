@@ -15,6 +15,6 @@
     
     void saisir(FILE*, joueur*);
     void lire(FILE*, joueur*);
-    afficher(joueur*);
+    void afficher(joueur*);
 
 #endif
