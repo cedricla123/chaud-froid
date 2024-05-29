@@ -1,6 +1,6 @@
 CC = gcc
 SRC = ./src/main.c ./src/fonction.c ./src/joueur.c
-OBJ = ./obj/main.o ./obj/fonction.o ./obj/joueur.o
+OBJ = main.o fonction.o joueur.o
 EXEC = ./bin/programe
 
 all : $(EXEC)
