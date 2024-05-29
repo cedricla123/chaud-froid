@@ -34,6 +34,8 @@ void fjouer(joueur jr)
     srand(time(NULL));
     int i=0,x,trouver=0, abandon=0;
     x = fRandom(jr.dif);
+
+    while()
 }
 
 /*-----------------------------------------------------------------------------------*/
